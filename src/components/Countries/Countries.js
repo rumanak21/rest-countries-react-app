@@ -12,8 +12,10 @@ const Countries = () => {
     return (
         <div >
 
-            <h1>All Countries List</h1>
-            <h2>Total Countries: {countries.length}</h2>
+            <div className='heading'>
+                <h1>All Countries List</h1>
+                <h2>Total Countries: {countries.length}</h2>
+            </div>
 
             <div className='countries'>
                 {countries.map(country =>
